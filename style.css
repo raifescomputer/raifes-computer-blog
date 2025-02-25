@@ -90,3 +90,35 @@ a:hover {
     color: #666;
     margin-bottom: 0.5rem;
 }
+
+.center-home {
+    text-align: center; /* Centers text */
+}
+
+.left-pages {
+    text-align: left; /* Left-aligns text */
+}
+
+.left-pages header, .left-pages footer {
+  text-align: center; /*re-centers the header and footer*/
+}
+
+/* Reduce spacing between link and description on projects page */
+#projects-list li a {
+    margin-bottom: 2px; /* Adjust this value as needed */
+  }
+  
+  #projects-list li p {
+    margin-top: 2px; /* Adjust this value as needed */
+  }
+  
+  /* Or, you can use padding instead of margin */
+  /*
+  #projects-list li a {
+    padding-bottom: 0px;
+  }
+  
+  #projects-list li p {
+    padding-top: 0px;
+  }
+  */
