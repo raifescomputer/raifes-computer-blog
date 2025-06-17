@@ -13,6 +13,16 @@ After he passed, I was given the custom-built computer he created, and it’s no
 
 ---
 
+## 🛠️ Tech Stack
+
+This site is built using:
+
+- **HTML** – for structure and content  
+- **CSS** – for design and layout  
+- **JavaScript** – to add live weather functionality
+
+---
+
 ## 🗂️ What You’ll Find Here
 
 - **AI & Machine Learning**  
@@ -38,5 +48,3 @@ Interested in following along, collaborating, or just want to say hi?
 Connect with me on [LinkedIn](https://www.linkedin.com/in/ryannemilligan/).
 
 ---
-
-
