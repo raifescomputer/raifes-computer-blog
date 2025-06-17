@@ -1,0 +1,124 @@
+body {
+    font-family: monospace, monospace;
+    background-color: #e0f2fe;
+    color: #1e3c72;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Center text in body */
+}
+
+header, footer {
+    background-color: #aed9e9;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: #0056b3;
+}
+
+main {
+    width: 80%;
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+section {
+    background-color: #f0f8ff;
+    padding: 1.5rem;
+    border: 1px solid #8ac4e3;
+    margin-bottom: 1rem;
+    display: inline-block; /* allows the section to center */
+}
+
+article {
+    border-bottom: 1px dashed #8ac4e3;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+article:last-child {
+    border-bottom: none;
+}
+
+h1, h2, h3 {
+    font-family: monospace, monospace;
+    color: #003366;
+}
+
+h1 {
+    position: relative;
+    display: inline-block;
+}
+
+h1::after {
+    content: '';
+    position: absolute;
+    right: -5px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 2px;
+    height: 1em;
+    background-color: #003366;
+    animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+    from, to {
+        background-color: transparent;
+    }
+    50% {
+        background-color: #003366;
+    }
+}
+
+a {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.post-date {
+    font-size: 0.8em;
+    color: #666;
+    margin-bottom: 0.5rem;
+}
+
+.center-home {
+    text-align: center; /* Centers text */
+}
+
+.left-pages {
+    text-align: left; /* Left-aligns text */
+}
+
+.left-pages header, .left-pages footer {
+  text-align: center; /*re-centers the header and footer*/
+}
+
+/* Reduce spacing between link and description on projects page */
+#projects-list li a {
+    margin-bottom: 2px; /* Adjust this value as needed */
+  }
+  
+  #projects-list li p {
+    margin-top: 2px; /* Adjust this value as needed */
+  }
+  
+  /* Or, you can use padding instead of margin */
+  /*
+  #projects-list li a {
+    padding-bottom: 0px;
+  }
+  
+  #projects-list li p {
+    padding-top: 0px;
+  }
+  */
