@@ -23,25 +23,6 @@ This site is built using:
 
 ---
 
-## 🗂️ What You’ll Find Here
-
-- **AI & Machine Learning**  
-  Concepts, experiments, and hands-on projects as I learn and grow in the AI field.
-
-- **Coding & Development**  
-  My journey as a developer, including personal projects, learning experiences, and problem-solving.
-
-- **Tech & Innovation**  
-  Thoughts and commentary on emerging technologies, trends, and industry breakthroughs.
-
-- **Health Informatics**  
-  Projects and insights at the intersection of healthcare and technology—where my true passion lies.
-
-- **Personal Projects**  
-  A showcase of what I’m building, learning, and exploring—both in and outside of school.
-
----
-
 ## 📬 Get in Touch
 
 Interested in following along, collaborating, or just want to say hi?  
